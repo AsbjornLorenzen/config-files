@@ -1,4 +1,7 @@
 ```
+# Install aerospace:
+brew install --cask nikitabobko/tap/aerospace
+
 # Install iterm2:
 brew install --cask iterm2
 
