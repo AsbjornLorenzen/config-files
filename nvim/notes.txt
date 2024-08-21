@@ -1,0 +1,5 @@
+Useful shortcuts:
+
+[g : go to prev error
+]g : go to next error
+ca : code action
