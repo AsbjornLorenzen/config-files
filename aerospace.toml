@@ -111,13 +111,13 @@ alt-shift-minus = 'resize smart -50'
 alt-shift-equal = 'resize smart +50'
 
 #Monitor layout
-ctrl-h = 'focus-monitor left'
-ctrl-l = 'focus-monitor right'
-ctrl-k = 'focus-monitor up'
-ctrl-j = 'focus-monitor down'
+ctrl-shift-h = 'focus-monitor left'
+ctrl-shift-l = 'focus-monitor right'
+ctrl-shift-k = 'focus-monitor up'
+ctrl-shift-j = 'focus-monitor down'
 
 # Move to monitor
-ctrl-shift-h = 'move-workspace-to-monitor --wrap-around next'
+ctrl-shift-m = 'move-workspace-to-monitor --wrap-around next'
 
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
