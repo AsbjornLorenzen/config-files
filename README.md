@@ -21,8 +21,14 @@ source ~/.zshrc
 # Clone this repo to the home directory, and create symlinks to the repo:
 ln -sf ~/config-files/.zshrc ~/.zshrc
 ln -sf ~/config-files/aerospace.toml ~/.config/aerospace/aerospace.toml
+mkdir ~/.config/aerospace
 ln -sf ~/config-files/nvim ~/.config/nvim
 
 # Install the following using brew:
 brew install fzf fd bat delta tldr thefuck eza delta
 ```
+
+# Set key repeat rate
+
+defaults write -g InitialKeyRepeat -int 10
+defaults write -g KeyRepeat -int 3
