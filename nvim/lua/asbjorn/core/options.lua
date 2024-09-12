@@ -3,13 +3,13 @@ vim.opt.relativenumber = true
 vim.opt.number = true
 
 -- tabs
-vim.opt.tabstop = 2
+vim.opt.tabstop = 4
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
-vim.opt.autoindent = true 
+vim.opt.autoindent = true
 
 -- line wrapping
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 -- searching
 vim.opt.ignorecase = true
@@ -27,7 +27,7 @@ vim.opt.backspace = "indent,eol,start"
 -- clipboard
 vim.opt.clipboard:append("unnamedplus")
 
--- split windows 
+-- split windows
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 

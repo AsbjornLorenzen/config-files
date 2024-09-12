@@ -48,6 +48,11 @@ return {
 		dependencies = { "nvim-lua/plenary.nvim", "nvim-telescope/telescope-fzf-native.nvim" },
 	},
 	{ "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
+	{
+		"mrcjkb/haskell-tools.nvim",
+		version = "^4", -- Recommended
+		lazy = false, -- This plugin is already lazy
+	},
 	-- snippets
 	{ "hrsh7th/nvim-cmp" },
 	{ "hrsh7th/cmp-buffer" },
