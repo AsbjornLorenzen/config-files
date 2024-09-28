@@ -65,7 +65,6 @@ return {
 	{ "williamboman/mason-lspconfig.nvim" },
 	{ "neovim/nvim-lspconfig" },
 	{ "hrsh7th/cmp-nvim-lsp" },
-	{ "jose-elias-alvarez/typescript.nvim" },
 	{ "onsails/lspkind.nvim" },
 	-- Linting and formatting
 	{ "jose-elias-alvarez/null-ls.nvim" },
@@ -74,4 +73,15 @@ return {
 	{ "windwp/nvim-autopairs" },
 	{ "windwp/nvim-ts-autotag" },
 	{ "lewis6991/gitsigns.nvim" },
+	{
+		"TobinPalmer/pastify.nvim",
+		cmd = { "Pastify", "PastifyAfter" },
+		config = function()
+			require("pastify").setup({
+				opts = {
+					apikey = "YOUR API KEY (https://api.imgbb.com/)", -- Needed if you want to save online.
+				},
+			})
+		end,
+	},
 }
