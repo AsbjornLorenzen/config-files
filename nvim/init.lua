@@ -12,3 +12,4 @@ require("asbjorn.lsp.null-ls")
 require("asbjorn.autopairs")
 require("asbjorn.treesitter")
 require("asbjorn.gitsigns")
+vim.g.python3_host_prog = "~/.venvs/nvim/bin/python3"
