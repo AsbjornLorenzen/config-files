@@ -85,8 +85,14 @@ lspconfig["emmet_ls"].setup({
 -- 	capabilities = capabilities,
 -- 	on_attach = on_attach,
 -- })
-lspconfig["hls"].setup({
-	filetypes = { "haskell", "lhaskell", "cabal" },
+-- lspconfig["hls"].setup({
+-- 	filetypes = { "haskell", "lhaskell", "cabal" },
+-- })
+
+-- python ls
+lspconfig["pylsp"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
 })
 
 -- configure lua server (with special settings)
