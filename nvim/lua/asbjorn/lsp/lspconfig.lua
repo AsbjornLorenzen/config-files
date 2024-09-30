@@ -86,15 +86,6 @@ lspconfig["emmet_ls"].setup({
 	filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
 })
 
--- configure haskell ls
--- lspconfig["haskell-language-server"].setup({
--- 	capabilities = capabilities,
--- 	on_attach = on_attach,
--- })
--- lspconfig["hls"].setup({
--- 	filetypes = { "haskell", "lhaskell", "cabal" },
--- })
-
 -- python ls
 lspconfig["pylsp"].setup({
 	capabilities = capabilities,
