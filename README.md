@@ -25,7 +25,7 @@ mkdir ~/.config/aerospace
 ln -sf ~/config-files/nvim ~/.config/nvim
 
 # Install the following using brew:
-brew install fzf fd bat delta tldr thefuck eza delta
+brew install fzf fd bat delta tldr thefuck eza delta tree
 # other useful stuff:
 brew install mdless
 ```
