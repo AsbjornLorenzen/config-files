@@ -9,6 +9,8 @@ treesitter.setup({
 	-- enable syntax highlighting
 	highlight = {
 		enable = true,
+		disable = { "latex" },
+		additional_vim_regex_highlighting = { "latex", "markdown" },
 	},
 	-- enable indentation
 	indent = { enable = true },
